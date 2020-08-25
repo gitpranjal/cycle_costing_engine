@@ -22,7 +22,7 @@ class Multithreading extends Thread
 	String order_date = "22-7-2020";
 	String base_date ="22-7-2018";
 	int inflation_factor = 2;
-	String output_filepath = "/home/pranjal/Desktop/output.txt";
+	String output_filepath = "src/cycle_costing_engine/output.txt";
 	
 	@Override
     public void run() 
@@ -74,7 +74,7 @@ public class cycle_costing_engine {
 		
 		int capacity = 1000;
 		ArrayBlockingQueue<HashMap<String, String>> queue = new ArrayBlockingQueue<>(capacity);
-		String input_filepath = "/home/pranjal/Desktop/cycle_list.txt";
+		String input_filepath = "src/cycle_costing_engine/cycle_list.txt";
 		
 		cycles_list cycles = new cycles_list(input_filepath);
 		

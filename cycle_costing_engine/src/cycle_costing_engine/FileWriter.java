@@ -9,7 +9,7 @@ public class FileWriter {
 	
 	public static void main(String[] args)
 	{
-		String filepath = "/home/pranjal/Desktop/cycle_list.txt";
+		String filepath = "src/cycle_costing_engine/cycle_list.txt";
 		for(int i =0; i< 1000; i++)
 		{
 			
