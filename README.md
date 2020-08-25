@@ -1,4 +1,4 @@
-# cycle_costing_engine
+# Cycle Costing Engine: JAVA Blocking Queue and Multithreading
 
 Please follow the link for instructions and documentation:
 
